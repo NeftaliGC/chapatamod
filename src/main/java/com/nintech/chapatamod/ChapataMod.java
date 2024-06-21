@@ -1,6 +1,7 @@
 package com.nintech.chapatamod;
 
 import com.nintech.chapatamod.items.ChapataItem;
+import com.nintech.chapatamod.items.CreativeTabInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -13,6 +14,6 @@ public class ChapataMod {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ChapataItem.ITEMS.register(bus);
-
+        CreativeTabInit.TABS.register(bus);
     }
 }

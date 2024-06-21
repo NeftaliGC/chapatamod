@@ -5,6 +5,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -30,6 +31,7 @@ public class CreativeTabInit {
                     .displayItems((displayParams, output)->{
                        CHAPATA_TAB_ITEMS.forEach(itemLike -> output.accept(itemLike.get()));
                     })
+                    .withSearchBar()
                     .build()
     );
     public static <T extends Item> RegistryObject<T> addToTab(RegistryObject<T> itemLike){
@@ -37,10 +39,10 @@ public class CreativeTabInit {
         return itemLike;
     }
 
-    @SubscribeEvent
+   /* @SubscribeEvent
     public static void buildContents(BuildCreativeModeTabContentsEvent event){
-        if (event.getTabKey() == CreativeModeTab.){
-
+        if (event.getTab() == CHAPATA_TAB.get()){
+            event.accept(Items.CROSSBOW);
         }
-    }
+    }*/
 }
