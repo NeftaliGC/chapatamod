@@ -61,4 +61,11 @@ public class ChapataItem {
                             .build())
                     .rarity(Rarity.EPIC)
             )));
+    public static final RegistryObject<Item> CUCHILLO = addToTab(ITEMS.register("cuchillo",
+            () -> new Item(new Item.Properties().stacksTo(2)
+                    .durability(50)
+                    .rarity(Rarity.EPIC)
+            )));
+
+
 }
