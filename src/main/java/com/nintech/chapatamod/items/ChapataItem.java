@@ -10,13 +10,23 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.time.Duration;
 
 public class ChapataItem {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ChapataMod.MODID);
 
-    public static final RegistryObject<Item> CHAPATA = ITEMS.register("chapata_bbq",
+    public static final RegistryObject<Item> CHAPATA_BBQ = ITEMS.register("chapata_bbq",
+            () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(6)
+                            .saturationModifier(0.2f)
+                            .effect(new MobEffectInstance(MobEffects.REGENERATION,200,2),1f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            ));
+
+
+    public static final RegistryObject<Item> CHAPATA_CHICKEN = ITEMS.register("chapata_chicken",
             () -> new Item(new Item.Properties().stacksTo(16)
                     .food(new FoodProperties.Builder()
                             .nutrition(6)
