@@ -1,9 +1,6 @@
 package com.nintech.chapatamod.items;
 
 import com.nintech.chapatamod.ChapataMod;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.flag.FeatureFlag;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
@@ -22,6 +19,5 @@ public class ChapataItem {
                             .saturationModifier(0.2f)
                             .build())
                     .rarity(Rarity.EPIC)
-
             ));
 }
