@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " A ",
+    "ASA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sugar"
+    },
+    "S": {
+      "item": "chapatamod:salsa_italiana"
+    }
+  },
+  "result": {
+    "id": "chapatamod:salsa_bbq",
+    "count": 1
+  }
+}

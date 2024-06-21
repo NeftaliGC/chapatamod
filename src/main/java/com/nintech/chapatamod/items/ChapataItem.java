@@ -69,10 +69,25 @@ public class ChapataItem {
                     .rarity(Rarity.EPIC)
             )));
     public static final RegistryObject<Item> CUCHILLO = addToTab(ITEMS.register("cuchillo",
-            () -> new Item(new Item.Properties().stacksTo(64)
+            () -> new Item(new Item.Properties().stacksTo(1)
                     .durability(50)
                     .rarity(Rarity.EPIC)
             )));
-
+    public static final RegistryObject<Item> TOMATE = addToTab(ITEMS.register("tomate",
+            () -> new Item(new Item.Properties().stacksTo(64)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(3)
+                            .saturationModifier(0.5f)
+                            .build())
+                    .rarity(Rarity.COMMON)
+            )));
+    public static final RegistryObject<Item> SALSA_ITALIANA = addToTab(ITEMS.register("salsa_italiana",
+            () -> new Item(new Item.Properties().stacksTo(64)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(4)
+                            .saturationModifier(0.5f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
 
 }

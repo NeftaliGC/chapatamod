@@ -10,15 +10,15 @@
 - [ ] Crear chapatas de champiñones
 - [ ] Crear chapatas de conejo
 - [ ] Crear chapatas de res
-- [ ] Crear items de salsa bbq
-- [ ] Crear items de salsa italiana
+- [X] Crear items de salsa bbq
+- [X] Crear items de salsa italiana
 - [ ] Crear items de piñas / cultivos
 - [ ] Crear items de semillas de piña
 - [ ] Crear items peperoni
-- [ ] Crear items de queso
-- [ ] Crear item de tomate
-- [ ] Crear item de cuchillo
-- [ ] Crear item de pan cortado
+- [X] Crear items de queso
+- [X] Crear item de tomate
+- [X] Crear item de cuchillo
+- [X] Crear item de pan cortado
 - [ ] Crear el crafteo de cada una 
 
 ## Crafteos
