@@ -21,8 +21,6 @@
 - [ ] Crear item de pan cortado
 - [ ] Crear el crafteo de cada una 
 
-
-
 ## Crafteos
 
 ### Chapata Pollo bbq
