@@ -1,14 +1,21 @@
 package com.nintech.chapatamod.items;
 
 import com.nintech.chapatamod.ChapataMod;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.apache.commons.lang3.ObjectUtils;
 
 import static com.nintech.chapatamod.items.CreativeTabInit.addToTab;
 
@@ -28,7 +35,7 @@ public class ChapataItem {
             )));
 
 
-    public static final RegistryObject<Item> CHAPATA_CHICKEN = addToTab(ITEMS.register("chapata_chicken",
+    public static final RegistryObject<Item> CHAPATA_CHICKEN = addToTab(ITEMS.register("chapata_chicken.json",
             () -> new Item(new Item.Properties().stacksTo(16)
                     .food(new FoodProperties.Builder()
                             .nutrition(7)
@@ -62,7 +69,7 @@ public class ChapataItem {
                     .rarity(Rarity.EPIC)
             )));
     public static final RegistryObject<Item> CUCHILLO = addToTab(ITEMS.register("cuchillo",
-            () -> new Item(new Item.Properties().stacksTo(2)
+            () -> new Item(new Item.Properties().stacksTo(64)
                     .durability(50)
                     .rarity(Rarity.EPIC)
             )));

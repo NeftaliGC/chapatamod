@@ -1,5 +1,9 @@
 {
   "item.chapatamod.chapata_bbq": "Chapata BBQ",
   "item.chapatamod.chapata_chicken": "Chapata de Pollo",
-  "itemGroup.chapata_tab": "Chapatas MOD"
+  "itemGroup.chapata_tab": "Chapatas MOD",
+  "item.chapatamod.queso": "Queso",
+  "item.chapatamod.cuchillo": "Cuchillo",
+  "item.chapatamod.salsa_bbq": "Salsa BBQ",
+  "item.chapatamod.pan_cortado": "Rebanada de pan"
 }

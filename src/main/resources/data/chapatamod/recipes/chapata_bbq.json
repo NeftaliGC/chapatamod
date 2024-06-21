@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " P ",
+    "QCS",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "chapatamod:pan_cortado"
+    },
+    "C": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "Q": {
+      "item": "chapatamod:queso"
+    },
+    "S": {
+      "item": "chapatamod:salsa_bbq"
+    }
+  },
+  "result": {
+    "id": "chapatamod:chapata_bbq",
+    "count": 1
+  }
+}

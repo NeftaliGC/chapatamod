@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "C",
+    "P"
+  ],
+  "key": {
+    "C": {
+      "item": "chapatamod:cuchillo"
+    },
+    "P": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "id": "chapatamod:pan_cortado",
+    "count": 2
+  }
+}
