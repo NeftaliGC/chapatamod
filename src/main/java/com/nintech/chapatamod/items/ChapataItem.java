@@ -35,7 +35,7 @@ public class ChapataItem {
             )));
 
 
-    public static final RegistryObject<Item> CHAPATA_CHICKEN = addToTab(ITEMS.register("chapata_chicken.json",
+    public static final RegistryObject<Item> CHAPATA_CHICKEN = addToTab(ITEMS.register("chapata_chicken",
             () -> new Item(new Item.Properties().stacksTo(16)
                     .food(new FoodProperties.Builder()
                             .nutrition(7)
