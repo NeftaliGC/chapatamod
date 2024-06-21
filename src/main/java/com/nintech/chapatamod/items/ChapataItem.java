@@ -15,13 +15,12 @@ public class ChapataItem {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ChapataMod.MODID);
 
-    public static final RegistryObject<Item> CHAPATA = ITEMS.register("chapata",
+    public static final RegistryObject<Item> CHAPATA = ITEMS.register("chapata_bbq",
             () -> new Item(new Item.Properties().stacksTo(16)
                     .food(new FoodProperties.Builder()
                             .nutrition(6)
                             .saturationModifier(0.2f)
                             .build())
                     .rarity(Rarity.EPIC)
-
             ));
 }
