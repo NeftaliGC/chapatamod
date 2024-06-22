@@ -5,7 +5,7 @@
 ## TO-DO
 - [ ] Hacer los efectos de cada una y sus propiedades 
 - [ ] Crear chapatas italianas
-- [ ] Crear chapatas tropicales
+- [X] Crear chapatas tropicales
 - [ ] Crear chapatas de cochinita
 - [ ] Crear chapatas de champiñones
 - [ ] Crear chapatas de conejo

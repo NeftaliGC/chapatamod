@@ -37,6 +37,26 @@ public class ChapataItem {
                             .build())
                     .rarity(Rarity.EPIC)
             )));
+
+    public static final RegistryObject<Item> CHAPATA_TROPICAL = addToTab(ITEMS.register("chapata_tropical",
+            () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(7)
+                            .saturationModifier(0.5f)
+                            .effect(new MobEffectInstance(MobEffects.REGENERATION,200,2),1f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
+
+    public static final RegistryObject<Item> PINEAPPLE = addToTab(ITEMS.register("pineapple",
+            () -> new Item(new Item.Properties().stacksTo(64)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(3)
+                            .saturationModifier(0.5f)
+                            .build())
+                    .rarity(Rarity.COMMON)
+            )));
+
     public static final RegistryObject<Item> QUESO = addToTab(ITEMS.register("queso",
             () -> new Item(new Item.Properties().stacksTo(64)
                     .food(new FoodProperties.Builder()
