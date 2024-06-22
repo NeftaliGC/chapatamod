@@ -20,6 +20,7 @@
 - [X] Crear item de cuchillo
 - [X] Crear item de pan cortado
 - [ ] Crear el crafteo de cada una 
+- [ ] Crear texturas de cada item
 
 ## Crafteos
 
