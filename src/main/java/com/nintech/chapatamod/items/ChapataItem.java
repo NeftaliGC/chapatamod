@@ -1,21 +1,14 @@
 package com.nintech.chapatamod.items;
 
 import com.nintech.chapatamod.ChapataMod;
-import net.minecraft.tags.TagKey;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.component.ItemAttributeModifiers;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.apache.commons.lang3.ObjectUtils;
 
 import static com.nintech.chapatamod.items.CreativeTabInit.addToTab;
 
@@ -85,6 +78,15 @@ public class ChapataItem {
             () -> new Item(new Item.Properties().stacksTo(64)
                     .food(new FoodProperties.Builder()
                             .nutrition(4)
+                            .saturationModifier(0.5f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
+
+    public static final RegistryObject<Item> PEPERONI = addToTab(ITEMS.register("peperoni",
+            () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(3)
                             .saturationModifier(0.5f)
                             .build())
                     .rarity(Rarity.EPIC)

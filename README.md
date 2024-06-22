@@ -14,7 +14,7 @@
 - [X] Crear items de salsa italiana
 - [ ] Crear items de piñas / cultivos
 - [ ] Crear items de semillas de piña
-- [ ] Crear items peperoni
+- [X] Crear items peperoni
 - [X] Crear items de queso
 - [X] Crear item de tomate
 - [X] Crear item de cuchillo
