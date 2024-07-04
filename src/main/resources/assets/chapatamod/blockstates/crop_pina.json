@@ -1,7 +1,28 @@
 {
   "multipart": [
-    { "when":  {"age": "0"},
-      "apply": { "model": "chapatamod:block/crop_pina"}
+    { "when": { "age": "0" },
+      "apply": { "model": "block/crop_pina0" }
+    },
+    { "when": { "age": "1" },
+      "apply": { "model": "block/crop_pina1" }
+    },
+    { "when": { "age": "2" },
+      "apply": { "model": "block/crop_pina2" }
+    },
+    { "when": { "age": "3" },
+      "apply": { "model": "block/crop_pina3" }
+    },
+    { "when": { "age": "4" },
+      "apply": { "model": "block/crop_pina4" }
+    },
+    { "when": { "age": "5" },
+      "apply": { "model": "block/crop_pina5" }
+    },
+    { "when": { "age": "6" },
+      "apply": { "model": "block/crop_pina6" }
+    },
+    { "when": { "age": "7" },
+      "apply": {"model": "block/crop_pina7"}
     }
   ]
 }
