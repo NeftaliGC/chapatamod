@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/crop_cross2",
+  "parent": "block/crop",
   "textures": {
     "crop": "chapatamod:block/crop_pina7"
   }

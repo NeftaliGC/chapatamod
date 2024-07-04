@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": {"model": "chapatamod:block/crop_pina0"},
+    "age=1": {"model": "chapatamod:block/crop_pina1"},
+    "age=2": {"model": "chapatamod:block/crop_pina2"},
+    "age=3": {"model": "chapatamod:block/crop_pina3"},
+    "age=4": {"model": "chapatamod:block/crop_pina4"},
+    "age=5": {"model": "chapatamod:block/crop_pina5"},
+    "age=6": {"model": "chapatamod:block/crop_pina6"},
+    "age=7": {"model": "chapatamod:block/crop_pina7"}
+  }
+}

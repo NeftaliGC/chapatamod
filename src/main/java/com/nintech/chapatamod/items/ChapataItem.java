@@ -115,8 +115,8 @@ public class ChapataItem {
                     .rarity(Rarity.EPIC)
             )));
     //Semilla Piña
-    public static final RegistryObject<BlockItem> SEMILLA_PINA = addToTab(ITEMS.register("semilla_pina",
-            () -> new BlockItem(CROP_PINA.get(),new Item.Properties().
+    public static final RegistryObject<Item> SEMILLA_PINA = addToTab(ITEMS.register("semilla_pina",
+            () -> new BlockItem(PINA_CROP.get(),new Item.Properties().
                     rarity(Rarity.COMMON))
             ));
 

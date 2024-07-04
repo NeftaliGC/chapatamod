@@ -2,6 +2,7 @@ package com.nintech.chapatamod.blocks;
 
 import com.nintech.chapatamod.ChapataMod;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,5 +19,6 @@ public class ChapataBlockInit {
                     .instabreak()
                     .sound(SoundType.CROP)
             ));
-
+    public static final RegistryObject<Block> PINA_CROP = BLOCKS.register("pina_crop",
+            ()-> new PinaSeed(BlockBehaviour.Properties.ofFullCopy(Blocks.CARROTS).noCollission().instabreak().sound(SoundType.CROP)));
 }
