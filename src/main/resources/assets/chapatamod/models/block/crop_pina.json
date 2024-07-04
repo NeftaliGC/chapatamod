@@ -1,6 +1,6 @@
 {
-  "parent": "block/crop",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "crop": "chapatamod:block/crop_pina"
+    "all": "chapatamod:block/crop_pina"
   }
 }
