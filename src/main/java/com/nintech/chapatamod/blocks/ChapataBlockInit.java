@@ -12,6 +12,11 @@ public class ChapataBlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ChapataMod.MODID);
 
     public static final RegistryObject<Block> CROP_PINA = BLOCKS.register("crop_pina",
-            () -> new PinaSeed(BlockBehaviour.Properties.of().noCollission().randomTicks().instabreak().sound(SoundType.CROP)));
+            () -> new PinaSeed(BlockBehaviour.Properties.of()
+                    .noCollission()
+                    .randomTicks()
+                    .instabreak()
+                    .sound(SoundType.CROP)
+            ));
 
 }

@@ -1,11 +1,14 @@
 package com.nintech.chapatamod.items;
 
 import com.nintech.chapatamod.ChapataMod;
+import com.nintech.chapatamod.blocks.ChapataBlockInit;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.level.block.ChainBlock;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -112,7 +115,9 @@ public class ChapataItem {
                     .rarity(Rarity.EPIC)
             )));
     //Semilla Piña
-    public static final RegistryObject<Item> SEMILLA_PINA = addToTab(ITEMS.register("semilla_pina",
-            () -> new CustomSeedItem( new Item.Properties().rarity(Rarity.COMMON),CROP_PINA.get())));
+    public static final RegistryObject<BlockItem> SEMILLA_PINA = addToTab(ITEMS.register("semilla_pina",
+            () -> new BlockItem(CROP_PINA.get(),new Item.Properties().
+                    rarity(Rarity.COMMON))
+            ));
 
 }
