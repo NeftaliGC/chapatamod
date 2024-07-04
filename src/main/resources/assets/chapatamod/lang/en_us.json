@@ -10,5 +10,7 @@
   "item.chapatamod.salsa_italiana": "Salsa Italiana",
   "item.chapatamod.peperoni": "Peperoni",
   "item.chapatamod.pineapple": "Piña",
-  "item.chapatamod.chapata_tropical": "Chapata tropical"
+  "item.chapatamod.chapata_tropical": "Chapata tropical",
+  "item.chapatamod.pina_seed_item": "Semilla de piña",
+  "block.chapatamod.pina_seed_block": "Cultivo de piña",
 }
