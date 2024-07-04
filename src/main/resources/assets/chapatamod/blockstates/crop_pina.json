@@ -1,7 +1,7 @@
 {
-  "variants": {
-    "": {
-      "model": "chapatamod:block/crop_pina"
+  "multipart": [
+    { "when":  {"age": "0"},
+      "apply": { "model": "chapatamod:block/crop_pina"}
     }
-  }
+  ]
 }
