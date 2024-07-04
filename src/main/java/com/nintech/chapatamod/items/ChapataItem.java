@@ -4,14 +4,16 @@ import com.nintech.chapatamod.ChapataMod;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.minecraft.world.item.CreativeModeTab;
 
 import static com.nintech.chapatamod.items.CreativeTabInit.addToTab;
-
+import static com.nintech.chapatamod.items.ChapataBlockInit.*;
 
 public class ChapataItem {
 
@@ -111,6 +113,8 @@ public class ChapataItem {
                             .build())
                     .rarity(Rarity.EPIC)
             )));
-
+    //Semilla Piña
+    public static final RegistryObject<Item> SEMILLA_PINA = addToTab(ITEMS.register("semilla_pina",
+            () -> new CustomSeedItem( new Item.Properties(),CROP_PINA.get())));
 
 }
