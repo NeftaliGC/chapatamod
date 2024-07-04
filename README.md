@@ -12,7 +12,7 @@
 - [ ] Crear chapatas de res
 - [X] Crear items de salsa bbq
 - [X] Crear items de salsa italiana
-- [ ] Crear items de piñas / cultivos
+- [X] Crear items de piñas / cultivos
 - [ ] Crear items de semillas de piña
 - [X] Crear items peperoni
 - [X] Crear items de queso
