@@ -1,8 +1,6 @@
-package com.nintech.chapatamod.items;
+package com.nintech.chapatamod.blocks;
 
 import com.nintech.chapatamod.ChapataMod;
-import com.nintech.chapatamod.blocks.PinaSeed;
-import net.minecraft.client.resources.model.Material;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;

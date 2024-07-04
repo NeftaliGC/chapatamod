@@ -1,6 +1,6 @@
 package com.nintech.chapatamod;
 
-import com.nintech.chapatamod.items.ChapataBlockInit;
+import com.nintech.chapatamod.blocks.ChapataBlockInit;
 import com.nintech.chapatamod.items.ChapataItem;
 import com.nintech.chapatamod.items.CreativeTabInit;
 import net.minecraftforge.eventbus.api.IEventBus;
