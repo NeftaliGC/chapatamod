@@ -13,7 +13,7 @@
 - [X] Crear items de salsa bbq
 - [X] Crear items de salsa italiana
 - [X] Crear items de piñas / cultivos
-- [ ] Crear items de semillas de piña
+- [X] Crear items de semillas de piña
 - [X] Crear items peperoni
 - [X] Crear items de queso
 - [X] Crear item de tomate
