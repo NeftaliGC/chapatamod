@@ -50,6 +50,16 @@ public class ChapataItem {
                             .build())
                     .rarity(Rarity.EPIC)
             )));
+    //CHAPATA ITALIANA
+    public static final RegistryObject<Item> CHAPATA_ITALIANA = addToTab(ITEMS.register("chapata_italiana",
+            () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(7)
+                            .saturationModifier(0.5f)
+                            .effect(new MobEffectInstance(MobEffects.REGENERATION,200,2),1f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
 
     public static final RegistryObject<Item> PINEAPPLE = addToTab(ITEMS.register("pineapple",
             () -> new Item(new Item.Properties().stacksTo(64)
@@ -119,5 +129,25 @@ public class ChapataItem {
             () -> new BlockItem(PINA_CROP.get(),new Item.Properties().
                     rarity(Rarity.COMMON))
             ));
+    //cochinita
+    public static final RegistryObject<Item> COCHINITA = addToTab(ITEMS.register("cochinita",
+            () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(3)
+                            .saturationModifier(0.5f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
+    //CHAPATA cohinita
+    public static final RegistryObject<Item> CHAPATA_COCHINITA = addToTab(ITEMS.register("chapata_cochinita",
+            () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(7)
+                            .saturationModifier(0.5f)
+                            .effect(new MobEffectInstance(MobEffects.REGENERATION,200,2),1f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
+
 
 }

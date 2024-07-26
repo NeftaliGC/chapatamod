@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " s ",
+    "scs",
+    " s "
+  ],
+  "key": {
+    "s": {
+      "item": "chapatamod:salsa_italiana"
+    },
+    "c": {
+      "item": "minecraft:cooked_porkchop"
+    }
+  },
+  "result": {
+    "id": "chapatamod:cochinita",
+    "count": 1
+  }
+}

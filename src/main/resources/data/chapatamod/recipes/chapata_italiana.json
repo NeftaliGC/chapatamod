@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " p ",
+    "qcs",
+    " p "
+  ],
+  "key": {
+    "p": {
+      "item": "chapatamod:pan_cortado"
+    },
+    "q": {
+      "item": "chapatamod:queso"
+    },
+    "c": {
+      "item": "chapatamod:peperoni"
+    },
+    "s": {
+      "item": "chapatamod:salsa_italiana"
+    }
+  },
+  "result": {
+    "id": "chapatamod:chapata_italiana",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " p ",
+    "qcq",
+    " p "
+  ],
+  "key": {
+    "p": {
+      "item": "chapatamod:pan_cortado"
+    },
+    "q": {
+      "item": "chapatamod:queso"
+    },
+    "c": {
+      "item": "chapatamod:cochinita"
+    }
+  },
+  "result": {
+    "id": "chapatamod:chapata_cochinita",
+    "count": 1
+  }
+}

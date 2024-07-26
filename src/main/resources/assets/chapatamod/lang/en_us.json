@@ -11,6 +11,8 @@
   "item.chapatamod.peperoni": "Peperoni",
   "item.chapatamod.pineapple": "Piña",
   "item.chapatamod.chapata_tropical": "Chapata tropical",
-  "item.chapatamod.semilla_pina": "Semilla de piña",
-  "block.chapatamod.pina_crop": "semilla de piña"
+  "block.chapatamod.pina_crop": "Semilla de piña",
+  "item.chapatamod.chapata_italiana": "Chapata Italiana",
+  "item.chapatamod.cochinita": "Cochinita",
+  "item.chapatamod.chapata_cochinita": "Chapata de cochinita"
 }
