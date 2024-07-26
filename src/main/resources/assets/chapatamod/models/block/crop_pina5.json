@@ -1,6 +1,6 @@
 {
-  "parent": "block/crop",
+  "parent": "block/cross",
   "textures": {
-    "crop": "chapatamod:block/crop_pina5"
+    "cross": "chapatamod:block/crop_pina5"
   }
 }
