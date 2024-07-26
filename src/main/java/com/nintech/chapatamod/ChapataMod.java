@@ -1,5 +1,6 @@
 package com.nintech.chapatamod;
 
+import com.nintech.chapatamod.Helper.ClientSetup;
 import com.nintech.chapatamod.blocks.ChapataBlockInit;
 import com.nintech.chapatamod.items.ChapataItem;
 import com.nintech.chapatamod.items.CreativeTabInit;
@@ -28,6 +29,7 @@ public class ChapataMod {
         ChapataItem.ITEMS.register(bus);
         CreativeTabInit.TABS.register(bus);
         BLOCKS.register(bus);
+        bus.addListener(ClientSetup::clientSetup);
     }
 
 }
