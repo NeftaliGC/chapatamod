@@ -148,6 +148,35 @@ public class ChapataItem {
                             .build())
                     .rarity(Rarity.EPIC)
             )));
-
+    //CHAPATA res
+    public static final RegistryObject<Item> CHAPATA_RES = addToTab(ITEMS.register("chapata_res",
+            () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(7)
+                            .saturationModifier(0.5f)
+                            .effect(new MobEffectInstance(MobEffects.REGENERATION,200,2),1f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
+    //CHAPATA CONEJO
+    public static final RegistryObject<Item> CHAPATA_CONEJO = addToTab(ITEMS.register("chapata_conejo",
+            () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(7)
+                            .saturationModifier(0.5f)
+                            .effect(new MobEffectInstance(MobEffects.REGENERATION,200,2),1f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
+    //CHAPATA cohinita
+    public static final RegistryObject<Item> CHAPATA_CHAMPINION = addToTab(ITEMS.register("chapata_champinion",
+            () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(7)
+                            .saturationModifier(0.5f)
+                            .effect(new MobEffectInstance(MobEffects.REGENERATION,200,2),1f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
 
 }

@@ -7,9 +7,9 @@
 - [X] Crear chapatas italianas
 - [X] Crear chapatas tropicales
 - [X] Crear chapatas de cochinita
-- [ ] Crear chapatas de champiñones
-- [ ] Crear chapatas de conejo
-- [ ] Crear chapatas de res
+- [X] Crear chapatas de champiñones
+- [x] Crear chapatas de conejo
+- [X] Crear chapatas de res
 - [X] Crear items de salsa bbq
 - [X] Crear items de salsa italiana
 - [X] Crear items de piñas / cultivos
@@ -19,8 +19,8 @@
 - [X] Crear item de tomate
 - [X] Crear item de cuchillo
 - [X] Crear item de pan cortado
-- [ ] Crear el crafteo de cada una 
-- [ ] Crear texturas de cada item
+- [X] Crear el crafteo de cada una 
+- [X] Crear texturas de cada item
 
 ## Crafteos
 
