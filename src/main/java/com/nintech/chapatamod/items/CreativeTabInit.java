@@ -1,5 +1,4 @@
 package com.nintech.chapatamod.items;
-
 import com.nintech.chapatamod.ChapataMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;

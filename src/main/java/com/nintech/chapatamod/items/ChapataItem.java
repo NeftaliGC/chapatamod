@@ -14,7 +14,8 @@ import net.minecraftforge.registries.RegistryObject;
 import static com.nintech.chapatamod.items.CreativeTabInit.addToTab;
 import static com.nintech.chapatamod.blocks.ChapataBlockInit.*;
 
-public class ChapataItem {
+public class
+ChapataItem {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ChapataMod.MODID);
 
@@ -169,6 +170,15 @@ public class ChapataItem {
     //CHAPATA cohinita
     public static final RegistryObject<Item> CHAPATA_CHAMPINION = addToTab(ITEMS.register("chapata_champinion",
             () -> new Item(new Item.Properties().stacksTo(16)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(7)
+                            .saturationModifier(0.5f)
+                            .effect(new MobEffectInstance(MobEffects.REGENERATION,200,2),1f)
+                            .build())
+                    .rarity(Rarity.EPIC)
+            )));
+    public static final RegistryObject<Item> EMMANUEL_ITEM = addToTab(ITEMS.register("emmanuel_item",
+            () -> new Item(new Item.Properties().stacksTo(999)
                     .food(new FoodProperties.Builder()
                             .nutrition(7)
                             .saturationModifier(0.5f)
